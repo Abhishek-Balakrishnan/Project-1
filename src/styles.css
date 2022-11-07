@@ -1,1 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url("./assets/digital_marketing_header_2c_2000x660-e1495217406628.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}

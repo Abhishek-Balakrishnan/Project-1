@@ -1,0 +1,17 @@
+
+<!-- <div><h2>{{aim}}</h2></div> -->
+    <div class="text"><h1 class="login_text">Access us wherever you go <br> <span class="login_text2"> U.S. Bancorp <hr><span class="login_span1"></span></span></h1></div>
+       <div class="main_login">
+         <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="login_form container p-1 text-center">
+                    <p class="name_text mt-4">Welcome to U.S. Bancorp</p>
+                    <input (change)="accnochange($event)"  name="accno" id="a1" type="text" [placeholder]="data" class="login_input mt-4">
+                    <input (change)="passchange($event)" name="pass" id="a2" type="password" placeholder="Password" class="login_input mt-4">
+                    <div><button (click)="login()" class="login_button mt-4"><span class="login_span2">Log In</span></button></div>
+                    <p class="mt-4">Need an Account? <a  class="login_span3" href="">Sign Up</a></p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12"></div>
+         </div>
+       </div>

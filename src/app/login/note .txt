@@ -1,0 +1,17 @@
+data sharing
+
+html to ts
+view(html),component(ts)
+
+
+data binding(to share data)
+------------
+
+1.one way binding
+    1.1component to view sharing
+        1.1.1 string interpollation {{}}
+        1.1.2 property binding  [property]="value"
+    1.2 view to comenent
+        1.2.1 event binding    (event name)="methodname()"
+        1.2.2 $event binding   (event name)="methodename($event)"
+        1.2.3 event binding using template reference variable  #variable_name
